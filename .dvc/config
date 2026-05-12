@@ -1,4 +1,6 @@
 [core]
-    remote = myremote
+    remote = dvcstore
 ['remote "myremote"']
     url = s3://roshan-mlops-dvc
+['remote "dvcstore"']
+    url = s3://roshan-mlops-dvc-bucket
